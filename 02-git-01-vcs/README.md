@@ -65,9 +65,12 @@
 
 1. Создайте файл `.gitignore` (обратите внимание на точку в начале файла), проверьте его статус сразу после создания. 
 1. Добавьте файл `.gitignore` в следующий коммит (`git add...`).
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/07e986ed-64bb-4254-9184-812f0d0ae76f)
 1. На одном из следующих блоков вы будете изучать `Terraform`, давайте сразу создадим соотвествующий каталог `terraform` и внутри этого каталога — файл `.gitignore` по примеру: https://github.com/github/gitignore/blob/master/Terraform.gitignore.  
 1. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
 1. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/f4ca6363-304a-4b0d-9844-e15fe9f45a04)
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/a033f8c7-31b7-4bbf-8e15-e17a87bc2387)
 
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
