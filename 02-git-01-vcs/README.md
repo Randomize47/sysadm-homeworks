@@ -52,11 +52,15 @@
 7. Выполните команду `git status` и запомните результат.
 8. Отредактируйте файл `README.md` любым удобным способом, тем самым переведя файл в состояние `Modified`.
 9. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага. 
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/495e5b50-a326-4913-add8-9439f7dc7044)
 10. Теперь посмотрите изменения в файле `README.md`, выполнив команды `git diff` и `git diff --staged`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/2a90bf14-7215-49a0-89d5-d0d6c9707469)
 11. Переведите файл в состояние `staged` (или, как говорят, просто добавьте файл в коммит) командой `git add README.md`.
 12. И ещё раз выполните команды `git diff` и `git diff --staged`. Поиграйте с изменениями и этими командами, чтобы чётко понять, что и когда они отображают. 
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/54386ace-435d-4f3e-85c7-9051ed0ddac0)
 13. Теперь можно сделать коммит `git commit -m 'First commit'`.
 14. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/74a05710-83e2-4495-a2c2-d35dade68e3c)
 
 ### Создание файлов `.gitignore` и второго коммита
 
