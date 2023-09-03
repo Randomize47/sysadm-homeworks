@@ -75,10 +75,14 @@
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
 1. Создайте файлы `will_be_deleted.txt` (с текстом `will_be_deleted`) и `will_be_moved.txt` (с текстом `will_be_moved`) и закоммите их с комментарием `Prepare to delete and move`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/a4ce6a39-6462-46b8-be6c-325d880923d1)
+
 1. В случае необходимости обратитесь к [официальной документации](https://git-scm.com/book/ru/v2/Основы-Git-Запись-изменений-в-репозиторий) — здесь подробно описано, как выполнить следующие шаги. 
-1. Удалите файл `will_be_deleted.txt` с диска и из репозитория. 
+1. Удалите файл `will_be_deleted.txt` с диска и из репозитория.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/39fe9b02-8be7-4c47-bcf2-9d903f5b3491)
 1. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
 1. Закоммитьте результат работы с комментарием `Moved and deleted`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/9e297953-e9c7-4ae1-83d3-0e46c88581ec)
 
 ### Проверка изменения
 
@@ -90,12 +94,15 @@
     * `Moved and deleted` — после удаления и перемещения временных файлов. 
 2. Проверьте это, используя комманду `git log`. Подробно о формате вывода этой команды мы поговорим на следующем занятии, но посмотреть, что она отображает, можно уже сейчас.
 
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/551fdcb2-9b99-4aa9-aa9d-281a1ef0e9ca)
+
 ### Отправка изменений в репозиторий
 
 Выполните команду `git push`, если Git запросит логин и пароль — введите ваши логин и пароль от GitHub. 
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/61389f8c-8881-4deb-9866-ae1cdeac0cb0)
 
 В качестве результата отправьте ссылку на репозиторий. 
-
+https://github.com/Randomize47/devops-netology
 ----
 
 ### Правила приёма домашнего задания
