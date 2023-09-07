@@ -127,10 +127,18 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 исправить её и выложить исправленный код в продакшн. Мы никуда не будем выкладывать код, но пометим некоторые коммиты тегами и создадим от них ветки. 
 
 1. Создайте легковестный тег `v0.0` на HEAD-коммите и запуште его во все три добавленных на предыдущем этапе `upstream`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/06f43033-bf20-46a8-af4b-8f5e7265d1a5)
+
 1. Аналогично создайте аннотированный тег `v0.1`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/d41bbb26-37e6-4937-9b47-ed669dc1376a)
+
 1. Перейдите на страницу просмотра тегов в GitHab (и в других репозиториях) и посмотрите, чем отличаются созданные теги. 
     * в GitHub — https://github.com/YOUR_ACCOUNT/devops-netology/releases;
+    ![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/13cc5cf4-264d-41cb-896d-79aa20ded603)
+В версии v0.0 в качестве комментария указывается комментарий последнего коммита, в версии v0.1 в качестве комментария указывается то, что прописали в аннотации. 
     * в GitLab — https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags;
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/bd17cff8-bbef-48d7-a569-b4903986e977)
+
     * в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке. 
 
 ## Задание 3. Ветки 
