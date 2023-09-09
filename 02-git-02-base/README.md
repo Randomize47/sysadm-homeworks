@@ -175,11 +175,16 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 
 [По ссылке](https://www.jetbrains.com/help/pycharm/commit-and-push-changes.html) можно найти справочную информацию по визуальному интерфейсу. 
 
+Скриншот из IDE с коммитами:
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/0be1b07e-28e3-40e4-9d9b-041dda198219)
+
 Если вверху экрана выбрать свою операционную систему, можно посмотреть горячие клавиши для работы с Git. 
 Подробней о визуальном интерфейсе мы расскажем на одной из следующих лекций.
 
 *В качестве результата работы по всем заданиям приложите ссылки на ваши репозитории в GitHub, GitLab и Bitbucket*.  
 
+https://github.com/Randomize47/devops-netology
+https://gitlab.com/randomize471/devops-netology
  
 ----
 
