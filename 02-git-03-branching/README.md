@@ -139,6 +139,9 @@ echo "====="
   
 ![Созданы обе ветки](img/01.png)
 
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/5530919e-b3aa-4b91-abcf-b7d49de05bc7)
+
+
 #### Merge
 
 Сливаем ветку `git-merge` в main и отправляем изменения в репозиторий, должно получиться без конфликтов:
