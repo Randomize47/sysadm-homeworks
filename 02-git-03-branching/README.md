@@ -199,6 +199,7 @@ for param in "$@"; do
     count=$(( $count + 1 ))
 done
 ```
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/fe638b86-7dba-4451-8b32-ff495993e020)
 
 **Шаг 3.** Удалим метки, отдав предпочтение варианту:
 
@@ -209,6 +210,8 @@ echo "\$@ Parameter #$count = $param"
 **Шаг 4.** Сообщим Git, что конфликт решён `git add rebase.sh` и продолжим rebase `git rebase --continue`.
 
 **Шаг 5.** Опять получим конфликт в файле `rebase.sh` при попытке применения нашего второго коммита. Давайте разрешим конфликт, оставив строчку `echo "Next parameter: $param"`.
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/05f1d9ad-757d-493c-90b7-fec5fe8526fe)
+
 
 **Шаг 6.** Далее опять сообщаем Git о том, что конфликт разрешён — `git add rebase.sh` — и продолжим rebase — `git rebase --continue`.
 
@@ -232,6 +235,7 @@ Merge branch 'git-merge'
 ```
 Successfully rebased and updated refs/heads/git-rebase
 ```
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/6b83bd1b-6403-42bc-ae96-d6c72e21f72c)
 
 **Шаг 7.** И попробуем выполнить `git push` либо `git push -u origin git-rebase`, чтобы точно указать, что и куда мы хотим запушить. 
 
@@ -247,6 +251,7 @@ hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/903e3fea-05b2-4204-a8a9-8867686eb6fc)
 
 Это произошло, потому что мы пытаемся перезаписать историю. 
 
@@ -265,6 +270,8 @@ To github.com:andrey-borue/devops-netology.git
  + 1829df1...e3b942b git-rebase -> git-rebase (forced update)
 Branch 'git-rebase' set up to track remote branch 'git-rebase' from 'origin'.
 ```
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/dce9eb4a-234e-4388-9787-f497fc537632)
+
 
 **Шаг 9**. Теперь можно смержить ветку `git-rebase` в main без конфликтов и без дополнительного мерж-комита простой перемоткой: 
 
@@ -279,6 +286,7 @@ Fast-forward
  branching/rebase.sh | 3 +--
  1 file changed, 1 insertion(+), 2 deletions(-)
 ```
+![image](https://github.com/Randomize47/sysadm-homeworks/assets/120917553/3156c0cc-2655-477b-82ce-e03772fb2464)
 
 *В качестве результата работы по всем заданиям приложите ссылку на .md-файл в вашем репозитории.*
  
@@ -287,6 +295,8 @@ Fast-forward
 ### Правила приёма домашнего задания
 
 В личном кабинете отправлена ссылка на network графика вашего репозитория.
+
+https://github.com/Randomize47/devops-netology/network
 
 ### Критерии оценки
 
